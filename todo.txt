@@ -1,0 +1,3 @@
+- tạo 3 cục màu để thay đổi màu background lưu mã màu vào localStorage
+- custom useChangeWindowSize để reponsive
+- tạo button để direct qua trang info của mình
