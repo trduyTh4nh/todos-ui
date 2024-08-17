@@ -261,13 +261,14 @@
     color: rgb(34, 34, 34);
 
 }
+
 .ani-scare {
     position: relative;
     cursor: pointer;
     bottom: 0;
 }
 
-.pop-confirm:hover{
+.pop-confirm:hover {
     cursor: pointer;
     animation: scare 0.4s linear 0.2s infinite;
 
@@ -275,13 +276,18 @@
 
 @keyframes scare {
     0% {
-        transform: translateY(-1.5px); /* Di chuyển nhẹ qua trái */
+        transform: translateY(-1.5px);
+        /* Di chuyển nhẹ qua trái */
     }
+
     50% {
-        transform: translateY(1.5px);  /* Di chuyển nhẹ qua phải */
+        transform: translateY(1.5px);
+        /* Di chuyển nhẹ qua phải */
     }
+
     100% {
-        transform: translateX(0);   /* Quay lại vị trí ban đầu */
+        transform: translateX(0);
+        /* Quay lại vị trí ban đầu */
     }
 }
 
@@ -301,10 +307,10 @@
 }
 
 .popup-animation-exit {
-   display: none;
+    display: none;
 }
 
-.popup-animation{
+.popup-animation {
     bottom: 3rem;
     position: relative;
 }
